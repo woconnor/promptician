@@ -1,0 +1,16 @@
+* {
+    transition: background 500ms in_out_cubic, color 500ms in_out_cubic;
+}
+
+PrompticianApp {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    min-width: 50;
+    margin: 1;
+    padding: 1;
+}
+
+Static {
+    color: $text;
+}

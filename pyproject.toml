@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "promptician"
+version = "0.1.0"
+description = "Text user interface for GPT-3 prompts"
+authors = ["William O'Connor <woconnor@woconnor.ca>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.8.1"
+rich = "^12.6.0"
+openai = "^0.25.0"
+asgiref = "^3.6.0"
+ruamel-yaml = "^0.17.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

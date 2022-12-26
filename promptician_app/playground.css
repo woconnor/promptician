@@ -1,0 +1,97 @@
+Playground #settings {
+    layout: grid;
+    grid-size: 2;
+    grid-rows: 6;
+    grid-columns: 1fr 9;
+    grid-gutter: 4;
+    padding: 1 2;
+    border-bottom: wide $background;
+    background: $boost;
+    height: auto;
+}
+
+Playground #parameters {
+    layout: grid;
+    grid-size: 4;
+    grid-rows: 2;
+    grid-columns: 18 1fr;
+    margin: 0;
+    height: auto;
+}
+
+Playground #parameters Input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+Playground #parameters .label {
+    padding: 0 2;
+    text-align: right;
+}
+
+Playground #prompt_wrapper {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 9;
+    grid-gutter: 1;
+    margin: 0 1;
+    padding: 0 1;
+    height: 3;
+}
+
+Playground #output {
+		layout: vertical;
+    width: 100%;
+		height: 1fr;
+    padding: 1 2 0 3;
+    overflow-y: auto;
+}
+
+Playground #loading {
+    layout: vertical;
+    align: center middle;
+    width: 100%;
+    height: 1fr;
+}
+
+Playground #evaluation {
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 10 1fr 10;
+    height: 6;
+    padding: 1;
+    border-top: wide $background;
+    background: $boost;
+}
+
+Playground #evaluation > * {
+    height: auto;
+}
+
+Playground #evaluation #rating_group {
+    align: center middle;
+}
+
+Playground #evaluation Button {
+    width: 8;
+    min-width: 8;
+    height: 3;
+    margin: 0 1;
+}
+
+Playground #negative.selected {
+    background: $error;
+}
+
+Playground #neutral.selected {
+    background: $background-darken-3;
+}
+
+Playground #positive.selected {
+    background: $success;
+}
+
+Playground #star.selected {
+    background: $secondary;
+}

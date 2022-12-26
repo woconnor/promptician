@@ -1,0 +1,42 @@
+History #search_wrapper {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 12;
+    grid-gutter: 1;
+    margin: 0 1;
+    padding: 1 1;
+    height: 5;
+}
+
+History #actions {
+    layout: horizontal;
+    height: 6;
+    padding: 1;
+    background: $boost;
+    border-top: wide $background;
+    align: center middle;
+}
+
+History #actions Button {
+    margin: 0 2;
+    max-width: 12;
+}
+
+History #results_wrapper {
+    layout: vertical;
+}
+
+History #results_wrapper ListItem {
+    layout: grid;
+    grid-size: 3;
+    grid-rows: 5;
+    grid-columns: 1fr 2 2;
+    grid-gutter: 2;
+    height: 5;
+    padding: 1 2;
+    overflow: hidden;
+}
+
+History #results_wrapper .icon {
+    margin: 1 0;
+}
