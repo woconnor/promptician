@@ -4,6 +4,13 @@ A text user interface for composing GPT-3 prompts and evaluating completions.
 Written in Python using the Textual framework.
 
 
+## Example
+
+![Playground](playground.svg)
+
+![History](history.svg)
+
+
 ## Setup
 
 An OpenAI API key is needed to make requests to GPT-3. The app expects to find

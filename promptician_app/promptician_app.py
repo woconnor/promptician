@@ -21,7 +21,8 @@ class PrompticianApp(App):
         ("ctrl+t", "toggle_theme", "Toggle theme"),
         ("ctrl+p", "playground", "Playground"),
         ("ctrl+l", "history", "History"),
-        ("ctrl+c,ctrl+q", "app.quit", "Quit"),
+        ("ctrl+s", "screenshot", "Screenshot"),
+        ("ctrl+c,ctrl+q", "quit", "Quit"),
     ]
 
     def __init__(self) -> None:
